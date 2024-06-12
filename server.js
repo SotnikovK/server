@@ -23,5 +23,5 @@ mongoose
 // Убедитесь, что путь к маршрутам указан правильно
 app.use("/api/auth", require("./routes/auth"));
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3005;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
